@@ -1,0 +1,18 @@
+{
+  "name": "rss-generator",
+  "version": "1.0.0",
+  "description": "Aggregated RSS feed generator with webhook push capabilities",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "feed": "^4.2.2",
+    "rss-parser": "^3.13.0"
+  }
+}
